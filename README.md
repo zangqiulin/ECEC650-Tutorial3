@@ -1,3 +1,18 @@
+This tutorial is a in class tutorial on how you can use MetaBAT and how you can evaluate the results.
+MetaBAT website: https://bitbucket.org/berkeleylab/metabat/src/master/
+CheckM website: https://github.com/Ecogenomics/CheckM/wiki
+CONCOCT website: https://github.com/BinPro/CONCOCT
+
+Files
+METABAT.pdf -- slides about the how MetaBAT works
+how_to_run_metabat.pdf  -- slides about how you can run MetaBAT
+metabat2 -- metabat2 software, can be run on Proteus
+jgi_summarize_bam_contig_depths  --  metabat2 software, can be run on Proteus
+install_on_proteus.sh  --  You can run it to install MetaBAT on Proteus(if you want to update it in the future)
+submitter.sh  --  You can submit it on Proteus to try how it works. You have to download the dataset first.
+checkresult.R -- the code for getting the plots from multiple CheckM results.
+
+
 
 Install MetaBAT2
 
@@ -39,3 +54,6 @@ In R:
 >pdf("Performance_By_Bin.pdf", width=8, height=8)
 >plotPerf(res)    #recall,precision,F1 and F0.5 plots
 >dev.off()
+
+
+
